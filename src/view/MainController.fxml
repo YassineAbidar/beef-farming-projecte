@@ -18,7 +18,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="principalBorder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="903.0" prefWidth="1300.0" stylesheets="@../css/maincontroller.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+<BorderPane fx:id="principalBorder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1100.0" stylesheets="@../css/maincontroller.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
    <left>
       <VBox nodeOrientation="LEFT_TO_RIGHT" prefHeight="789.0" prefWidth="222.0" style="-fx-background-color: #EBEBF9;" BorderPane.alignment="CENTER">
          <children>
@@ -103,9 +103,9 @@
    <center>
       <Pane fx:id="paneImportRace" prefHeight="789.0" prefWidth="1231.0" BorderPane.alignment="CENTER">
          <children>
-            <AnchorPane layoutX="-3.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="792.0" prefWidth="1085.0">
+            <AnchorPane layoutX="-3.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="886.0">
                <children>
-                  <Pane fx:id="paneInfo" layoutX="218.0" layoutY="37.0" prefHeight="654.0" prefWidth="634.0" style="-fx-background-color: #EBEBF9;">
+                  <Pane fx:id="paneInfo" layoutX="116.0" layoutY="14.0" prefHeight="654.0" prefWidth="634.0" style="-fx-background-color: #EBEBF9;">
                      <children>
                         <HBox alignment="CENTER" layoutX="-2.0" prefHeight="88.0" prefWidth="636.0">
                            <children>
@@ -134,7 +134,7 @@
       </Pane>
    </center>
    <top>
-      <HBox prefHeight="113.0" prefWidth="1288.0" style="-fx-background-color: #000;" BorderPane.alignment="CENTER">
+      <HBox prefHeight="113.0" prefWidth="1288.0" style="-fx-background-color: #00bcd4;" BorderPane.alignment="CENTER">
          <children>
             <HBox prefHeight="114.0" prefWidth="181.0">
                <children>
@@ -143,6 +143,15 @@
                         <Image url="@../images/logoKouri.png" />
                      </image>
                   </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="114.0" prefWidth="1081.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="57.0" prefWidth="849.0" text="Logiciel De Gestion de L'elvage de Bouvin" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="48.0" />
+                     </font>
+                  </Label>
                </children>
             </HBox>
          </children>
